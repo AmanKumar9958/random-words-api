@@ -33,5 +33,6 @@ The API returns a JSON array containing 50 objects, each with a unique `id` and 
     "id": 3,
     "word": "cherry"
   },
-  ...
 ]
+
+
