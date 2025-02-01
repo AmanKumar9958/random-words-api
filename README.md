@@ -34,5 +34,30 @@ The API returns a JSON array containing 50 objects, each with a unique `id` and 
     "word": "cherry"
   },
 ]
+```
+---
+
+## 🔥 How to use
+1️⃣ Fetching Data using JavaScript
+```
+fetch("https://amankumar9958.github.io/random-words-api/words.json")
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error("Error fetching data:", error);
+  });
+```
+2️⃣ Fetching Data using Python
+```
+import requests
+
+url = "https://amankumar9958.github.io/random-words-api/words.json"
+response = requests.get(url)
+words = response.json()
+
+print(words)
+```
 
 
